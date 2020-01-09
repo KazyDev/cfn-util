@@ -3,14 +3,24 @@
     "main": "./lib/cfn-util",
     "version": "0.0.0",
     "description": "A short description of your package",
-    "keywords": [],
-    "activationCommands": {
-        "atom-workspace": "cfn-util:toggle"
-    },
-    "repository": "https://github.com/atom/cfn-util",
+    "keywords": [
+        "AWS",
+        "CloudFormation"
+    ],
+    "activationHooks": [
+        "core:loaded-shell-environment"
+    ],
+    "repository": "https://github.com/KazyDev/cfn-util.git",
     "license": "MIT",
     "engines": {
         "atom": ">=1.0.0 <2.0.0"
     },
-    "dependencies": {}
+    "dependencies": {},
+    "consumedServices": {
+        "datatip": {
+            "versions": {
+                "0.1.0": "consumeDatatip"
+            }
+        }
+    }
 }
