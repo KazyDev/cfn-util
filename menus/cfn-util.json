@@ -1,26 +1,18 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle cfn-util",
-        "command": "cfn-util:toggle"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "cfn-util",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "cfn-util:toggle"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+    "context-menu": {
+        "atom-text-editor": [{
+            "label": "Toggle cfn-util",
+            "command": "cfn-util:toggle"
+        }]
+    },
+    "menu": [{
+        "label": "Packages",
+        "submenu": [{
+            "label": "cfn-util",
+            "submenu": [{
+                "label": "Toggle",
+                "command": "cfn-util:toggle"
+            }]
+        }]
+    }]
 }

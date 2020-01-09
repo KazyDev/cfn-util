@@ -1,18 +1,16 @@
 {
-  "name": "cfn-util",
-  "main": "./lib/cfn-util",
-  "version": "0.0.0",
-  "description": "A short description of your package",
-  "keywords": [
-  ],
-  "activationCommands": {
-    "atom-workspace": "cfn-util:toggle"
-  },
-  "repository": "https://github.com/atom/cfn-util",
-  "license": "MIT",
-  "engines": {
-    "atom": ">=1.0.0 <2.0.0"
-  },
-  "dependencies": {
-  }
+    "name": "cfn-util",
+    "main": "./lib/cfn-util",
+    "version": "0.0.0",
+    "description": "A short description of your package",
+    "keywords": [],
+    "activationCommands": {
+        "atom-workspace": "cfn-util:toggle"
+    },
+    "repository": "https://github.com/atom/cfn-util",
+    "license": "MIT",
+    "engines": {
+        "atom": ">=1.0.0 <2.0.0"
+    },
+    "dependencies": {}
 }
